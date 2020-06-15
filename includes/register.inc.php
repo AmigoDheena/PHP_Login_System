@@ -61,7 +61,7 @@ if (isset($_POST['reg_submit'])) {
                     mysqli_stmt_execute($stmt);
                     $_SESSION['message'] = "Successfully Registed!"; 
                     $_SESSION['message_type'] = 'success';
-                    header("Location: ../register.php?register=success");
+                    header("Location: ../index.php?register=success");
                 }
 
             }
