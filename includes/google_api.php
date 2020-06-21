@@ -2,8 +2,8 @@
 // Google_API_client
 require_once './vendor/autoload.php';
 
-$clientid = '';
-$clientSecret = '';
+$clientid = '158767274406-knb17ii86662tkeepi67g78jv64fltbb.apps.googleusercontent.com';
+$clientSecret = 'pW7gYkOPH7N0KmquemtBe9J5';
 $redirectUri = 'http://localhost/PHP_Login_System/';
 // $redirectUri = 'https://php-login-system.herokuapp.com/';
 
